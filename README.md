@@ -4,36 +4,27 @@
 
 A Win32 executable that does nothing. No windows, no operations, nothing. Just perpetually sleeps.
 
+Use Windowless-Executable to:
+* Set your Steam status using a non-Steam game
+* Hide the game you're currently playing by running Windowless-Executable with a blank name
+
+## Features
+* Minimalistic UX design
+* Small resource footprint
+* Small file
+* Hand-programmed
+
 ## Usage
 
 Just launch it. That's about it. You can run it through Steam if you want to set your Steam status (ie with a non-Steam game shortcut).
 
 ## Compiling
 
-### Prerequisites (required for all options)
-
-- Visual Studio
-- A brain
-
-### Using Visual Studio tools (the cool haxory way)
+### Using Visual Studio tools
 
 ```
 cl main.c /SUBSYSTEM
 ```
-
-### Using our compile script (the braindead way)
-
-```
-compile (version)
-```
-
-or just
-
-```
-compile
-```
-
-Yep, it's that easy.
 
 ## For the lazy
 
