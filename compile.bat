@@ -1,4 +1,4 @@
-rem @ECHO off
+@ECHO off
 
 SET INSTALL64=C:\Program Files (x86)
 SET INSTALL32=C:\Program Files
