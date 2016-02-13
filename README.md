@@ -2,6 +2,8 @@
 
 # Windowless-Executable
 
+[Steam Group](http://steamcommunity.com/groups/Windowless-Executable)
+
 ## (TL;DR) For the lazy
 
 The latest release (v1.1.1.0) may be found [here](https://github.com/BytewaveMLP/Windowless-Executable/releases/download/v1.0.0.0/Windowless-Executable-1.1.1.0.exe).
