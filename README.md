@@ -10,11 +10,30 @@ Just launch it. That's about it. You can run it through Steam if you want to set
 
 ## Compiling
 
-### Using Visual Studio tools
+### Prerequisites (required for all options)
+
+- Visual Studio
+- A brain
+
+### Using Visual Studio tools (the cool haxory way)
 
 ```
 cl main.c /SUBSYSTEM
 ```
+
+### Using our compile script (the braindead way)
+
+```
+compile (version)
+```
+
+or just
+
+```
+compile
+```
+
+Yep, it's that easy.
 
 ## For the lazy
 
