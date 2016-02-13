@@ -4,6 +4,16 @@
 
 A Win32 executable that does nothing. No windows, no operations, nothing. Just perpetually sleeps.
 
+## Uses
+- Set your Steam status using a non-Steam game
+- Hide the game you're currently playing by running Windowless-Executable with a blank name
+
+## Features
+- Minimalistic UX design
+- Small resource footprint
+- Small file
+- Hand-programmed
+
 ## Usage
 
 Just launch it. That's about it. You can run it through Steam if you want to set your Steam status (ie with a non-Steam game shortcut).
