@@ -1,3 +1,5 @@
+![Logo](img/logo.png)
+
 # Windowless-Executable
 
 ## (TL;DR) For the lazy
