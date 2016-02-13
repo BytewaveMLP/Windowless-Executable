@@ -1,8 +1,8 @@
-@ECHO off
+rem @ECHO off
 
-SET INSTALL64="C:\Program Files (x86)"
-SET INSTALL32="C:\Program Files"
-SET VSPATH="Microsoft Visual Studio 14.0\VC\vcvarsall.bat"
+SET INSTALL64=C:\Program Files (x86)
+SET INSTALL32=C:\Program Files
+SET VSPATH=Microsoft Visual Studio 14.0\VC\vcvarsall.bat
 
 ECHO Adding Visual Studio tools to PATH...
 IF EXIST "%INSTALL64%\%VSPATH%" (
