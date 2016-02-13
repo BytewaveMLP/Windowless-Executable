@@ -26,6 +26,11 @@ A Win32 executable that does nothing. No windows, no operations, nothing. Just p
 
 Just launch it. That's about it. You can run it through Steam if you want to set your Steam status (ie with a non-Steam game shortcut).
 
+## Known issues
+- Only compiles under Windows
+- Requires Visual Studio
+- May be blocked by SmartScreen (sorry, can't be arsed to get my code signed :^))
+
 ## Compiling
 
 ### Prerequisites (required for all options)
