@@ -22,4 +22,4 @@ The latest release (v1.0.0.0) may be found [here](https://github.com/BytewaveMLP
 
 ## License
 
-[GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)](http://www.wtfpl.net/)
