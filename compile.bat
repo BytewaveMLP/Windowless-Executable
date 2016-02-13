@@ -19,11 +19,12 @@ ECHO ERROR: Please install Visual Studio (or configure this script)!
 :compile
 ECHO Visual Studio Tools added to PATH.
 ECHO Compiling and linking...
-IF DEFINED 1 (
-	cl main.c /link /out:Windowless-Executable-%1.exe
-	GOTO :done
-	)
+IF "%1"=="" GOTO :blank
 
+cl main.c /link /out:Windowless-Executable-%1.exe
+GOTO :done
+
+:blank
 cl main.c /link /out:Windowless-Executable.exe
 
 :done
