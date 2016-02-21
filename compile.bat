@@ -10,17 +10,16 @@ IF EXIST "%INSTALL64%\%VSPATH%" (
 	GOTO :compile
 	)
 IF EXIST "%INSTALL32%\%VSPATH%" (
-	CALL "%INSTALL32\%VSPATH" amd64_x86
+	CALL "%INSTALL32\%VSPATH"
 	GOTO :compile
 	)
-
 ECHO ERROR: Please install Visual Studio (or configure this script)!
+GOTO :eof
 
 :compile
 ECHO Visual Studio Tools added to PATH.
 ECHO Compiling and linking...
 IF "%1"=="" GOTO :blank
-
 cl main.c /link /out:Windowless-Executable-%1.exe
 GOTO :done
 
@@ -31,6 +30,5 @@ cl main.c /link /out:Windowless-Executable.exe
 ECHO Removing .obj file...
 DEL /Q main.obj
 ECHO Done!
-GOTO :eof
 
 :eof
