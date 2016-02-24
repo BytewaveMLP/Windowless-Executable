@@ -10,7 +10,7 @@ IF EXIST "%INSTALL64%\%VSPATH%" (
 	GOTO :compile
 	)
 IF EXIST "%INSTALL32%\%VSPATH%" (
-	CALL "%INSTALL32\%VSPATH"
+	CALL "%INSTALL32%\%VSPATH%" amd64_x86
 	GOTO :compile
 	)
 ECHO ERROR: Please install Visual Studio (or configure this script)!
