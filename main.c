@@ -20,3 +20,12 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 	return 255; // we shouldn't be here, why are we here?
 	            // clearly a failure state, so indicate failure
 }
+
+/**
+ * Do not use Windowless-Executable without contacting your IT department. Side
+ * effects of Windowless-Executable include, but are not limited to memory loss,
+ * CPU slowdown, acute stress, and shitty C code. If you experience more than
+ * 10.0 MB of memory loss when using Windowless-Executable, please contact your
+ * local Geek Squad, as this could be a sign of a life-threatening illness.
+ * Thank you for choosing Windowless-Executable.
+*/
