@@ -6,7 +6,7 @@
 
 ## (TL;DR) For the lazy
 
-The latest release (v1.1.1.0) may be found [here](/releases/latest).
+The latest release (v1.1.1.0) may be found [here](https://github.com/BytewaveMLP/Windowless-Executable/releases/latest).
 
 ## Description
 
