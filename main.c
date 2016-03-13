@@ -4,7 +4,7 @@
  * terms of the Do What The Fuck You Want To Public License, Version 2,
  * as published by Sam Hocevar. See the LICENSE file or http://www.wtfpl.net/ 
  * for more details.
-*/
+ */
 
 #include <windows.h>
 #include <limits.h>
@@ -28,4 +28,4 @@ int APIENTRY WinMain(HINSTANCE hInstance,
  * 10.0 MB of memory loss when using Windowless-Executable, please contact your
  * local Geek Squad, as this could be a sign of a life-threatening illness.
  * Thank you for choosing Windowless-Executable.
-*/
+ */
