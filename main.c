@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright © 2016 Windowless-Executable Ltd
  * This work is free. You can redistribute it and/or modify it under the
  * terms of the Do What The Fuck You Want To Public License, Version 2,
@@ -21,7 +21,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 	            // clearly a failure state, so indicate failure
 }
 
-/**
+/*
  * Do not use Windowless-Executable without contacting your IT department. Side
  * effects of Windowless-Executable include, but are not limited to memory loss,
  * CPU slowdown, acute stress, and shitty C code. If you experience more than
